@@ -1,0 +1,100 @@
+/* Global */
+
+a:hover, a:visited, a:link, a:active { text-decoration: none; }
+a:hover { outline: none;}
+
+/* Search Form */
+
+.search-bloc {padding: 0px;}
+
+.caret-search-btn { border-top: none; border-bottom: 4px solid #E63312; }
+.label-advanced-search { font-weight:500; font-size:18px;margin-bottom:0px;}
+.collapsed .caret-search-btn { border-top: 4px solid #E63312; border-bottom: none ;}
+
+.filter-option { color: #777;} 
+
+.select2-selection__rendered {font-size:14px;}
+.select2-results__option--highlighted {background-color : rgb(227, 55, 41) !important; font-weight:bold;}
+
+.bootstrap-select {
+	width: 60px !important;
+	color: #E63312 !important;
+	border-radius:5px;
+}
+
+.search-field { margin-top: 15px;}
+.search-btn { background-color: #E63312;}
+.search-text-result{ font-size: 18px; font-weight:400; background-color: white !important; color: #000;}
+
+/* Tri date*/
+.tri-date-link {font-size: 16px;}
+
+/* List */
+
+.top-list-bloc {margin-top: 10px;}
+
+.filtre { margin-bottom : 20px !important;}
+
+.list-group-item {box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.1);}
+.list-group-item:hover {box-shadow: 1px 2px 3px 4px rgba(0,0,0,0.1);}
+.list-group-item-text {font-size:16px;}
+.list-group-item-bottom {margin-top: 10px;}
+
+.list-offres-link {color: black; }
+.list-offres-link:HOVER {color: #E63312;}
+.list-infos-offre:hover {color: #E63312 !important;}
+
+.link-disabled { pointer-events: none; cursor: default;}
+.link-enabled { color: #BBBBBB;}
+
+/* Bookmark */
+
+.bookmark-offre { color: #E63312 !important;}
+.bookmark-offre:hover { color: #C9302C !important;}
+.icon-bookmark {font-size: 20px;}
+
+
+/* Pagination */
+
+.paginate-pagination {
+    text-align: center;
+    display: inline-block !important;
+    float: right;
+    width: 100%;
+}
+
+.paginate-pagination ul > li > a.page {
+   	width: 30px;
+   	height:30px;
+   	font-size :18px;
+   	color: black;
+   	border-radius: 18px;
+   	border:1px solid #DDDDDD;
+   	box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.1);
+   	padding-top: 0px;
+}
+
+.par-page {
+	margin-bottom: 10px;
+}
+
+
+.page.active {
+	font-weight:900 !important;
+	color: #C9302C !important;
+   	border-radius: 18px;
+   	border:2px solid #DDDDDD;
+}
+
+.filter-option {
+	content: "Choisissez";
+} 
+
+div.dropdown-menu.open { 
+	z-index: 1100 !important; 
+}
+
+
+/* MAP */
+
+#mapid { height: 500px;}

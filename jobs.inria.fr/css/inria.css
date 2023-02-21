@@ -1,0 +1,114 @@
+body{
+    font-family: "Inria Sans";
+  
+}
+
+.date-inria {
+	font-family: "Inria Sans";
+	font-size: 36px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.inria-blue {color: #384257;}
+.inria-red {color: #E63312;}
+.inria-black {color: #262626;}
+.inria-gray1 {color: #7E8490;}
+.inria-gray2 {color: #A3A7B1;}
+.inria-gray3 {color: #D7D9DD;}
+.inria-gray4 {color: #EBECEE;}
+.inria-white1 {color: #FFFF;}
+.inria-white2 {color: #F8F9FA;}
+
+.btn-inria-red {background-color: #E63312; color: #FFF;}
+.btn-inria-red:hover {background-color: #C9302C; color: #FFF;}
+
+.text-center {	text-align: center;}
+.text-left {	text-align: left;}
+.text-right {	text-align: right;}
+
+
+.h1-inria {
+	font-family: "Inria Sans";
+	font-size: 72px;
+	line-height: 72px;
+	font-weight: bold;
+}
+
+.h2-inria {
+	font-family: "Inria Sans";
+	font-size: 52px;
+	line-height: 52px;
+	font-weight: 300;
+}
+
+.h3-inria {
+	font-family: "Inria Sans";
+	font-size: 32px;
+	line-height: 38px;
+	font-weight: bold;
+}
+
+.h4-inria {
+	font-family: "Inria Sans";
+	font-size: 26px;
+	line-height: 28px;
+	
+}
+
+.x-large {
+	font-family: "Inria Sans";
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.x-normal {
+	font-family: "Inria Sans";
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.x-small {
+	font-family: "Inria Sans";
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.xx-small {
+	font-family: "Inria Sans";
+	font-size: 12px;
+	line-height: 10px;
+}
+
+.legende {
+	font-family: "Inria Sans";
+	font-size: 10px;
+	line-height: 20px;
+	font-style: italic;
+}
+
+.a-inria, .a-inria:hover, .a-inria:focus {
+    color: #E33729 !important;
+}
+
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #888!important;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #888!important;
+   opacity:  1;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #888!important;
+   opacity:  1;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #888!important;
+}
+input::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #888!important;
+}
+input:placeholder-shown {/* Mozilla Firefox 51+ */
+   color:    #888!important;
+}

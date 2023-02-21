@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>	2023-05765 - Optimisation d’énergie pour un autopilote de drone temps-réel (PX4-RT)
+</title>
+        <link rel="icon" type="image/x-icon" href="../../../../favicon-16x16.png"/>
+        <script type="text/javascript" src="../../../../js/jquery/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="../../../../css/bootstrap-3.3.4/js/bootstrap.js"></script>
+        	<meta property="og:description" content="Offre d'emploi Inria" />
+	<meta property="og:title" content="Optimisation d’énergie pour un autopilote de drone temps-réel (PX4-RT)" />
+	<meta property="og:url" content="http://jobs.inria.fr/public/classic/fr/offres/2023-05765" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:site_name" content="Inria"/>
+	<meta property="og:type" content="article" />
+        	            <link rel="stylesheet" href="../../../../css/bootstrap-3.3.4/css/bootstrap.min.css"/>
+            <link rel="stylesheet" href="../../../../library/bootstrap-select-1.12.2/dist/css/bootstrap-select.min.css"/>
+            <link rel="stylesheet" href="../../../../css/bootstrap/bootstrap-datetimepicker.css"/>
+            <link rel="stylesheet" href="../../../../library/font-awesome-4.7.0/css/font-awesome.css"/>
+            <link rel="stylesheet" href="../../../../css/fonts/fonts.css"/>
+            <link rel="stylesheet" href="../../../../css/app/main_public.css" />
+            <link rel="stylesheet" href="../../../../css/inria.css"/>
+        
+	<link property="stylesheet" rel="stylesheet" href="../../../../css/app/detailOffre.css" />
+    </head>
+<body  style="background-image: url('../../../../images/bg-jobs.png') ">
+    
+<nav id="toplinklist" class="nav navbar-nav navbar-default navbar-fixed-top" >
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="navbar-header">
+                                <a href="../offres.html" class="pull-left inriatoplinklogo">
+                    <img alt="Inria" width="30%" src="https://commons.inria.fr/images/logo/inr_logo_sans_sign_rouge.jpg" />
+                </a>
+                                <button type="button" class="navbar-toggle toplinktoggle" data-toggle="collapse" data-target="#navbar-collapse-menuTop">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-menuTop">
+                <ul class="nav navbar-nav navbar-right">
+                                        <li class="visible-xs text-right toplinktoggle-remove nav-profil-menu" data-toggle="collapse" data-target="#navbar-collapse-menuTop">
+                        <i class="inria-gray3 fa fa-remove fa-2x"></i></li>
+                    <li class=" text-center picto-lang nav-profil-menu" >
+                                                                        <span class="toplang-button">
+                            <a class="inria-gray2" href="../../fr/offres/2023-05765.html" title="Français">
+                                FR
+                            </a> <span class="inria-gray2">|</span>
+                            <a class="a-inria" href="2023-05765.html" >EN</a>
+                            </span>
+                                            </li>
+
+                                                                                                    <li class="dropdown text-center nav-profil-menu">
+                        <a href="2023-05765.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img alt="user" src="../../../../images/user.png">
+                                                        <p style="color: black;">
+                                Account <span class="caret"></span>
+                            </p>
+                                                    </a>
+                        <ul class="dropdown-menu">
+                                                        <li><a href="../../../en/connect.html"> <span class="fa fa-sign-in"></span> Sign in</a></li>
+                            <li><a href="../../../en/register.html"><span class="fa fa-plus"></span> Register</a></li>
+                                                    </ul>
+                    </li>
+                                </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+    </div><!-- /.navbar-inner -->
+</nav>
+
+
+<!-- Bouton Scroll -->
+<div class="row">
+    <div class="col-md-12">
+        <div class="visible-sm visible-xs">
+            <a href="2023-05765.html#" title="Haut de page" class="scrollup scrollup-sm link-btn" type="button">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+        <div class="visible-md">
+            <a href="2023-05765.html#" title="Haut de page" class="scrollup scrollup-md link-btn" type="button">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+        <div class="visible-lg">
+            <a href="2023-05765.html#" title="Haut de page" class="scrollup scrollup-lg link-btn" type="button">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- Main content -->
+<div class="col-md-12 main-content" style="height:auto;">
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2 menu-breadcrumb">
+            <a href="https://jobs.inria.fr/public/classic/en/offres?locale=en" class="a-inria">
+        Home
+        </a>
+         > 
+        <a href="https://jobs.inria.fr/public/classic/en/offres?locale=en" class="a-inria">List of vacancies</a>
+         > Detail of a job vacancy        </div>
+    </div>
+    <div class="row" ><div  class="col-xs-10 col-xs-offset-1 col-md-8 col-lg-6 col-lg-offset-2"></div></div>
+<div class="row">
+    <div class="col-md-12 col-lg-10 col-lg-offset-1">
+        <div class="row">
+                    
+                <div id="left" class="col-sm-7 col-lg-6 col-lg-offset-1 block-left">
+                    <div class="list-group list-group-item" style="padding: 6%; font-size: 16px;">
+                                              <div class="row">
+                            <span class="h4-inria intitule-detail-offre col-xs-10 col-sm-11"> 
+                                <b>2023-05765 - Optimisation d’énergie pour un autopilote de drone temps-réel (PX4-RT)</b>
+                            </span>
+                            <span class=" col-xs-2 col-sm-1">
+                            <a class="a-inria" class="pdf-link"  href="https://jobs.inria.fr/public/classic/en/offres/2023-05765/topdf" title="PDF">
+                            	<i class="fa fa-file-pdf-o fa-2x pull-right"></i>
+                            </a>
+                            </span> 
+                        </div>
+                        <div class="row">
+                         <span class=" h4 col-xs-10 col-sm-11"> 
+                                                                                   <i class="fa fa-info-circle"></i> <em>The offer description below is in French</em>
+                                                                               </span>
+                        </div>
+                                						
+		<div class="grand-item-offre">
+		
+				<div class="item-offre">	    	
+	    	<p class="list-group-item-text"><b>Contract type : </b>
+	        	Internship agreement
+	        </p>	        
+	    </div>
+	    	    
+	    	    
+	    	    <div class="item-offre">
+	    	<p class="list-group-item-text"><b>Level of qualifications required : </b>
+	        	Master&#039;s or equivalent
+	        </p>
+	    </div>
+	    	    
+	    	    
+	    	    
+	    		<div class="item-offre">
+	    	<p class="list-group-item-text"><b>Fonction : </b>
+	        	Internship Research
+	        </p>
+	    </div>
+	    	    
+	    	    
+	    	    
+	    	    <div class="item-offre">
+	    	<p class="list-group-item-text"><b>Level of experience : </b>
+	        	Recently graduated
+	        </p>
+	    </div>
+	        </div>
+    
+        
+        
+        <div class="grand-item-offre">
+    	<h4 class="list-group-item-heading">Context</h4>
+    	<div class="list-group-item-text text-justify">
+    		<p>Dans le cadre de la proposition d'un ensemble de programmes open source port&eacute;e par l'&eacute;quipe-projet Kopernic (<a href="https://team.inria.fr/kopernic/kdbench/">https://team.inria.fr/kopernic/kdbench/</a>), nous nous int&eacute;ressons &agrave; la comparaison de la consommation d'&eacute;nergie par ces programmes sur un microcontrolleur pour&nbsp;un syst&egrave;me d'exploitation donn&eacute;.&nbsp;</p>
+<div class="page" title="Page 1">
+<div class="layoutArea">
+<div class="column">
+<p><strong>Contexte et Objectifs </strong></p>
+<p>L&rsquo;équipe Kopernic [1] étudie les propriétés temporelles des systèmes cyber-physiques. Elle a développé l&rsquo;outil KDBench [2] qui analyse les programmes d&rsquo;un auto- pilote open-source de drone temps-réel (l&rsquo;autopilote PX4-RT [3]). Cet outil permet notamment de mesurer les temps d&rsquo;exécution des tâches temps-réel (nommé traces de temps d&rsquo;exécution) et propose également une estimation du temps d&rsquo;exécution au pire cas (noté WCET). Dans ce stage, nous nous intéresserons plus particulièrement à la consommation d&rsquo;énergie qui a le plus souvent consisté, pour les systèmes embarqués temps-réels, en des techniques d&rsquo;optimisation basées sur l&rsquo;amélioration des modèles d&rsquo;énergie du CPU [4]. Cependant dans [5] les auteurs ont montré que ces méthodes ne prennent pas en compte la consommation d&rsquo;énergie, non négligeable, liée aux accès mémoire et aux autres éléments matériels. Pour ce faire, dans [6] les auteurs ont proposé d&rsquo;utiliser des estimateurs statistiques : les estimateurs statistiques de consommation énergétique au pire-cas d&rsquo;un programme (noté pWCEC pour probabilistic worst-case energy consumption). Le WCEC d&rsquo;un programme correspond à la plus grande consommation d&rsquo;énergie pendant l&rsquo;exécution de ce programme pour tous les scénarios d&rsquo;exécution valides et le pWCEC correspond quant à lui à la consommation d&rsquo;énergie probabiliste au pire cas d&rsquo;un programme. Les r&eacute;sultats actuels de l''&eacute;quipe-projet Kopernic permettent d'identifier les chemins critiques d&rsquo;exécution, chemins pour lesquelles au moins une mesure de consommation d&rsquo;énergie a été utilisée dans le calcul du pWCEC.&nbsp;</p>
+<p>L'encadrante principale sera Liliana Cucu-Grosjean avec l'aide de&nbsp;Marwan Wehaiba (doctorant CIFRE entre Inria et StatInf) et St&eacute;phan Plassart (EPFL). Des interactions avec d'autre membres de l'&eacute;quipe sont attendus sur la collecte des donn&eacute;es (en vol ou en simulation Gazebo). Quelques d&eacute;placements peuvent survenir pendant la dur&eacute;e de stage et<strong> &nbsp;</strong>les frais associ&eacute;s seront pris en charge dans la limite du bar&egrave;me en vigueur.</p>
+<p>REFERENCES</p>
+<div>[1] &nbsp;Kopernic&nbsp;team.&nbsp;Keeping worst case reasoning appropriate for different criticalities.&nbsp;https:&nbsp;//team.inria.fr/kopernic/.<br />[2] &nbsp;Marwan Wehaiba el&nbsp;Khazen&nbsp;et al. &laquo; Work in Progress : KDBench - towards open source&nbsp;benchmarks for measurement-based multicore WCET&nbsp;estimators &raquo;. In :&nbsp;28th IEEE Real-&nbsp;Time and Embedded Technology and Applications Symposium, RTAS 2022, Milano, Italy,&nbsp;May 4-6, 2022. IEEE,&nbsp;2022, p. 309-312.&nbsp;doi&nbsp;:&nbsp;10.1109/RTAS54340.2022.00035.&nbsp;url&nbsp;:&nbsp;https://doi.org/10.1109/RTAS54340.2022.00035.</div>
+<div>[3] &nbsp;L.&nbsp;Meier.&nbsp;PX4 Development Guide.&nbsp;https://dev.px4.io/en/.</div>
+<div>[4] &nbsp;Mario&nbsp;Bambagini&nbsp;et al. &laquo; Energy-Aware Scheduling for Real-Time Systems : A Survey &raquo;.In :&nbsp;ACM Trans. Embed. Comput. Syst.&nbsp;15 (2016), 7 :1-7 :34.</div>
+<div>[5] &nbsp;Roberto&nbsp;Medina&nbsp;et Liliana&nbsp;Cucu-Grosjean. &laquo; Work-in-Progress : Probabilistic System-&nbsp;Wide DVFS for Real-Time Embedded Systems &raquo;. In : déc.&nbsp;2019, p. 508-511.&nbsp;doi&nbsp;:&nbsp;10.1109/&nbsp;RTSS46320.2019.00051.</div>
+<div>[6] &nbsp;Federico&nbsp;Reghenzani, Giuseppe&nbsp;Massari&nbsp;et William&nbsp;Fornaciari. &laquo; A Probabilistic Ap-&nbsp;proach to Energy-Constrained Mixed-Criticality Systems &raquo;. In :&nbsp;août 2019.&nbsp;doi&nbsp;:&nbsp;10.1109/&nbsp;ISLPED.2019.8824991.</div>
+<div>[7] &nbsp;StatInf.&nbsp;RocqStat.&nbsp;https://www.statinf.fr/.&nbsp;</div>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+    	</div>
+    </div>
+        
+        <div class="grand-item-offre">
+    	<h4 class="list-group-item-heading">Assignment</h4>
+    	<div class="list-group-item-text text-justify">
+    		<p>Le ou la stagiaire aura comme but d'effectuer une analyse comparative des performances de consommation d'energie de plusieurs algorithmes d'ordonnancement. Ce but suppose des &eacute;tapes intermediares qui n&eacute;cessitent la collecte de données à partir de l&rsquo;autopilote et d'appliquer des estimateurs statistiques existants. Des méthodes d&rsquo;apprentissage à partir de ces traces de données pourront aussi être étudiées.</p>
+<p>&nbsp;</p>
+    	</div>
+    </div>
+        
+        <div class="grand-item-offre">
+    	<h4 class="list-group-item-heading">Main activities</h4>
+    	<div class="list-group-item-text text-justify">
+    		<div class="page" title="Page 1">
+<div class="layoutArea">
+<div class="column">
+<ul>
+<li>
+<p>Analyse de l&rsquo;état de l&rsquo;art.</p>
+</li>
+<li>
+<p>Collecte des données (mesure du temps d&rsquo;exécution, de la consommation d&rsquo;énergie et des</p>
+<p>chemins du programme pris lors de l&rsquo;exécution de ce dernier).</p>
+</li>
+<li>
+<p>Utilisation du logiciel RocqStat [7] pour effectuer des estimations pire-cas.</p>
+</li>
+<li>
+<p>Etudier l&rsquo;efficacité en terme de consommation d&rsquo;énergie de différentes politiques d&rsquo;ordonnacement pour l&rsquo;exécution de programme sur l&rsquo;autopilote PX4-RT.</p>
+</li>
+<li>
+<p>Rédaction d&rsquo;un rapport et présentation de son travail. Les travaux pourront amener à une</p>
+<p>publication.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+    	</div>
+    </div>
+        
+        <div class="grand-item-offre">
+		<h4 class="list-group-item-heading">Skills</h4>
+		<div class="list-group-item-text text-justify">
+			<p>Élève de niveau Master en informatique ou mathématiques appliquées, qui est autonome, curieux et motivé. De bonnes compétences en programmation (Python, C) et en probabilité seront en particulier appréciées. Un bon niveau en Anglais et des bases en Latex sont n&eacute;cessaires pour la r&eacute;daction de son rapport.&nbsp;</p>
+		</div>
+	</div>
+	    
+        <div class="grand-item-offre">
+    	<h4 class="list-group-item-heading">Benefits package</h4>
+    	<div class="list-group-item-text text-justify">
+    		<ul>
+<li>Restauration subventionn&eacute;e</li>
+<li>Transports publics rembours&eacute;s partiellement</li>
+<li>Cong&eacute;s: 7 semaines de cong&eacute;s annuels</li>
+<li>&Eacute;quipements professionnels &agrave; disposition (visioconf&eacute;rence, pr&ecirc;ts de mat&eacute;riels informatiques, etc.)</li>
+<li>Prestations sociales, culturelles et sportives (Association de gestion des &oelig;uvres sociales d'Inria)</li>
+<li>Acc&egrave;s &agrave; la formation professionnelle</li>
+<li>S&eacute;curit&eacute; sociale</li>
+</ul>
+    	</div>
+    </div>
+        
+    
+                    </div>
+                </div>
+        
+                          <div id="right" class="col-sm-5 bloc-right">	
+               
+                	<div class="row">
+                		<div class="col-sm-12" style="padding:15px;margin-bottom :10px;">
+                     	                        	                           		<a href="2023-05765.html#" class="btn btn-lg btn-danger btn-postuler-footer" style="width:100%" data-toggle="modal" data-target="#registerOffre">Apply</a>
+                        	                    			
+            			</div>
+            		</div>
+        		    	<h4 >Share</h4>
+
+		<ul class="social">
+		<li><a target="_blank" href="https://www.facebook.com/sharer.php?u=http://jobs.inria.fr/public/classic/fr/offres/2023-05765&title=Offre+d%27emploi+Inria&description=Optimisation d’énergie pour un autopilote de drone temps-réel (PX4-RT)" class="a-facebook btn btn-sm btn-danger"> <i class="fa fa-facebook"></i> </a></li>
+		<li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://jobs.inria.fr/public/classic/fr/offres/2023-05765&title=Offre d'emploi Inria&summary=Optimisation d’énergie pour un autopilote de drone temps-réel (PX4-RT)" class="a-linkedin btn btn-sm btn-danger"> <i class="fa fa-linkedin"></i> </a></li>
+		<li><a target="_blank" href="http://twitter.com/share?hashtags=Jobs.inria.fr,Emploi,Paris&text=Offre d'emploi Inria : Optimisation d’énergie pour un autopilote de drone temps-réel (PX4-RT)%0A&url=http://jobs.inria.fr/public/classic/fr/offres/2023-05765" class="a-twitter btn btn-sm btn-danger"> <i class="fa fa-twitter"></i> </a></li>
+		<li><a target="_blank" href="mailto:?body=Offre d'emploi Inria :%0A Optimisation d’énergie pour un autopilote de drone temps-réel (PX4-RT)%0A%0A http://jobs.inria.fr/public/classic/fr/offres/2023-05765&subject=Offre d'emploi Inria: Optimisation d’énergie pour un autopilote de drone temps-réel (PX4-RT)" class="a-envelope btn btn-sm btn-danger"> <i class="fa fa-envelope"></i> </a></li>
+	</ul>
+	
+        				
+	<h4 >General Information</h4>
+	<ul class="nomargin">
+									<li><strong>Theme/Domain :</strong>
+											Embedded and Real-time Systems
+						<br/>										
+											System &amp; Networks
+													(BAP E)
+																
+				</li>
+							
+				<li><strong>Town/city :</strong>
+			Paris
+		</li>
+				
+				<li><strong>Inria Center :</strong>
+							<a class="a-inria" target="_blank" href="http://www.inria.fr/centre/paris">Centre Inria de Paris</a>
+					</li>  
+						
+					<li><strong>Starting date :</strong>
+				2023-05-01
+			</li>
+							<li><strong>Duration of contract :</strong>
+					6 months
+				</li>
+							
+				<li><strong>Deadline to apply :</strong>
+			2023-03-09				
+		</li>
+			</ul>
+	
+        				
+	<h4 >Contacts</h4>
+	<ul class="nomargin">
+				<li><strong>Inria Team :</strong>
+							<a class="a-inria" href="https://www.inria.fr/equipes/KOPERNIC" target="_blank">KOPERNIC</a>    	
+								</li>
+												<li>
+			<strong>Recruiter :</strong>
+			<br/>
+			Cucu Liliana
+			/
+			<a class="a-inria" href="mailto:liliana.cucu@inria.fr">liliana.cucu@inria.fr</a>
+		</li>
+	    	</ul>
+
+        				
+	    	<h4 >The keys to success</h4>
+    	<div class="text-justify">
+    		<div class="page" title="Page 2">
+<div class="layoutArea">
+<div class="column">
+<p>L'&eacute;quipe Kopernic est un environnement de travail qui s'appuie sur les valeurs de confiance et col&eacute;gialit&eacute; avec une grande diversit&eacute; de profils, la curiosit&eacute; est une qualit&eacute; attendue, &eacute;galement. &nbsp;</p>
+</div>
+</div>
+</div>
+    	</div>
+    
+        			<div class="grand-item-offre">
+    					<h4 class="list-group-item-heading">About Inria</h4>
+    					<p class="list-group-item-text text-justify">
+    		            Inria is the French national research institute dedicated to digital science and technology. It employs 2,600 people. Its 200 agile project teams, generally run jointly with academic partners, include more than 3,500 scientists and engineers working to meet the challenges of digital technology, often at the interface with other disciplines. The Institute also employs numerous talents in over forty different professions. 900 research support staff contribute to the preparation and development of scientific and entrepreneurial projects that have a worldwide impact.
+    					</p>
+    				</div>
+            			
+	<h4 >Instruction to apply</h4>
+	<div class="text-justify">
+		
+	</div>
+				
+	<p class="text-justify">
+		<strong>Defence Security : </strong>
+		<br/>
+		This position is likely to be situated in a restricted area (ZRR), as defined in Decree No. 2011-1425 relating to the protection of national scientific and technical potential (PPST).Authorisation to enter an area is granted by the director of the unit, following a favourable Ministerial decision, as defined in the decree of 3 July 2012 relating to the PPST. An unfavourable Ministerial decision in respect of a position situated in a ZRR would result in the cancellation of the appointment.
+    </p>
+             	
+    <p class="text-justify">
+    	<strong> Recruitment Policy :</strong>
+        <br/>
+		As part of its diversity policy, all Inria positions are accessible to people with disabilities.
+    </p>
+        <p class="text-justify alert alert-warning">
+		<b>Warning</b> : you must enter your e-mail address in order to save your application to Inria. Applications must be submitted online on the Inria website. Processing of applications sent from other channels is not guaranteed.
+    </p>
+    
+             </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Creer son compte -->
+<div class="modal fade" id="registerOffre" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content ">
+            
+            <div class="modal-body">
+              	<div class="row">
+                  	<div class="col-md-6 pull-right">
+                  		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-remove"></i></button>
+                  	</div>
+            	</div>
+            	<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+                        <p class="h4-inria list-group-item-text text-center">
+                        I create my account
+                        </p> 
+                        <p class="h4 list-group-item-text text-center "> 
+             			<i class="fa fa-info-circle"></i>
+             			 To follow your application online 
+                        </p>
+            			<p class="h3 list-group-item-text text-center">
+                           	<a href="https://jobs.inria.fr/public/en/register?ref=2023-05765"  class=" btn btn-danger">
+	        	        		<i class="fa fa-plus"></i> Register
+           					</a>
+        				</p>
+             			
+                        </div>
+       				</div>
+           
+           			<div class="col-md-6"  style="border-left: 1px solid #CCC;">
+           				<div class="form-group">
+           			
+                        <p class="h4-inria list-group-item-text text-center">
+							I already have an account!
+                        </p> 
+            			<p class="h3 list-group-item-text text-center">
+                           	<a href="https://jobs.inria.fr/public/classic/en/offres/2023-05765/postuler"  class=" btn btn-danger">
+	        	        		<i class="fa fa-sign-in"></i> Sign in
+           					</a>
+        				</p>
+        				</div>
+       				</div>
+            	</div>
+        	</div>
+            <div class="modal-footer" style="border: none;">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel </button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../../../../library/bootstrap-select-1.12.2/dist/js/bootstrap-select.min.js"></script>
+        <script type="text/javascript" src="../../../../js/moment.js"></script>
+		<script type="text/javascript" src="../../../../js/bootstrap-datetimepicker.js"></script>
+		<script src="../../../../js/cookiechoices.js"></script>
+		<script>
+				var textCookie = "By continuing to browse this website, you consent to the use of cookies to offer you content and services in line with your interests.";
+		var textBtnCookie = "See more";
+		var textAccept = "I accept";
+				document.addEventListener('DOMContentLoaded', function(event){cookieChoices.showCookieConsentBar(
+				textCookie, textAccept, textBtnCookie, '/public/en/mentions-legales');
+		});
+		</script>
+
+		<script type="text/javascript">
+
+		 ScrollToTop = function() {
+             var screen = $(window).scrollTop();
+             if (screen > 100) {
+               $('.scrollup').fadeIn();
+             } else {
+               $('.scrollup').fadeOut();
+             }
+         }
+		 $('.scrollup').on('mouseover', function(){
+             $(this).addClass('scrollup-mouseover');
+             $(this).removeClass('scrollup-mouseout');
+            });
+         $('.scrollup').on('mouseout', function(){
+             $(this).addClass('scrollup-mouseout');
+             $(this).removeClass('scrollup-mouseover');
+            });
+
+         $('.scrollup').on('click',function () {
+             $("html, body").animate({ scrollTop: 0 }, 500);
+
+             return false;
+         });
+
+         StopAnimation = function() {
+            $("html, body").bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(){
+                $('html, body').stop();
+            });
+         }
+
+         $(window).scroll(function() {
+             ScrollToTop();
+             StopAnimation();
+         });
+
+		</script>
+
+
+        <!-- Piwik -->
+                <script type="text/javascript">
+          var _paq = _paq || [];
+          /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u="//piwik.inria.fr/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '74']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+                <!-- End Piwik Code -->
+    <script type="text/javascript">
+    $(document).ready( function(){
+        $("postulerOffre").on('click', function(){
+            $('#postulerOffre').modal();
+        });
+    });
+    </script>
+    
+</div>
+
+<footer class="footer">
+    <div class="col-md-12 text-center">
+            <span class="text-center text-links-footer">
+            <a href="../../../en/contact.html"  target="_blank">Contact</a>&nbsp;&nbsp;|&nbsp;
+            <a href="../../../en/mentions-legales.html" target="_blank">Legal notice</a>
+                        </span>
+    </div>
+</footer>
+<script src="https://commons.inria.fr/bootstrap/ie10-fixup/ie10-viewport-bug-workaround.js"></script><script type="text/javascript" src="../../../../library/bootstrap-select-1.12.2/dist/js/bootstrap-select.min.js"></script>
+        <script type="text/javascript" src="../../../../js/moment.js"></script>
+		<script type="text/javascript" src="../../../../js/bootstrap-datetimepicker.js"></script>
+		<script src="../../../../js/cookiechoices.js"></script>
+		<script>
+				var textCookie = "By continuing to browse this website, you consent to the use of cookies to offer you content and services in line with your interests.";
+		var textBtnCookie = "See more";
+		var textAccept = "I accept";
+				document.addEventListener('DOMContentLoaded', function(event){cookieChoices.showCookieConsentBar(
+				textCookie, textAccept, textBtnCookie, '/public/en/mentions-legales');
+		});
+		</script>
+
+		<script type="text/javascript">
+
+		 ScrollToTop = function() {
+             var screen = $(window).scrollTop();
+             if (screen > 100) {
+               $('.scrollup').fadeIn();
+             } else {
+               $('.scrollup').fadeOut();
+             }
+         }
+		 $('.scrollup').on('mouseover', function(){
+             $(this).addClass('scrollup-mouseover');
+             $(this).removeClass('scrollup-mouseout');
+            });
+         $('.scrollup').on('mouseout', function(){
+             $(this).addClass('scrollup-mouseout');
+             $(this).removeClass('scrollup-mouseover');
+            });
+
+         $('.scrollup').on('click',function () {
+             $("html, body").animate({ scrollTop: 0 }, 500);
+
+             return false;
+         });
+
+         StopAnimation = function() {
+            $("html, body").bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(){
+                $('html, body').stop();
+            });
+         }
+
+         $(window).scroll(function() {
+             ScrollToTop();
+             StopAnimation();
+         });
+
+		</script>
+
+
+        <!-- Piwik -->
+                <script type="text/javascript">
+          var _paq = _paq || [];
+          /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u="//piwik.inria.fr/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '74']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+                <!-- End Piwik Code -->
+    <script type="text/javascript">
+    $(document).ready( function(){
+        $("postulerOffre").on('click', function(){
+            $('#postulerOffre').modal();
+        });
+    });
+    </script>
+</body>
+</html>

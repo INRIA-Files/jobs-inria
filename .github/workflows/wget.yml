@@ -28,7 +28,7 @@ jobs:
           
       # Main job
       - name: Download files
-        run: wget -E -p -k -l 1 -r https://jobs.inria.fr/public/classic/fr/offres
+        run: wget -E -p -k -l 1 -r https://jobs.inria.fr/public/classic/fr/offres https://jobs.inria.fr/public/classic/en/offres
 
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v4

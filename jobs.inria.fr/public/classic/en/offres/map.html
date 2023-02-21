@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="AcRaGEfmWXebteC_FCJjVZGmb8QEpSFX3Jwn1LDRSCo" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="i6RKJg1teORypKy5x8hmFs2Qq-vpYDDsPNANVc-_dg8" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offers found 
-                                                 ( 182 )
+                                                 ( 185 )
                        </span> 
                             </div>
         </div>
@@ -952,6 +952,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05130", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Energy efficient data management: Data reduction and protection meet performance and energy" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2022-05130" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-05-20" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.116202" == "" ) {
+            if("48.116" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.116';
+                lon = '-1.64';
+            }
+        } else {
+            lat = '48.116202';
+            lon = '-1.63963';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05672", _locale : "en" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Internship Master 2: Dynamic Shape Analysis for Sparse Tensor Code" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
@@ -1278,28 +1300,6 @@ function mapInit() {
         } else {
             lat = '43.616';
             lon = '7.068';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05791", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctorant F/H [Campagne POSTDOC MI-NF-LYS-2023] Méthodes formelles pour la vérification de propriété éléctriques sur des circuits intégrés (F/H)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05791" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-04-15" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
-        ;
-        if("45.786253" == "" ) {
-            if("45.786253" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.786253';
-                lon = '4.879797';
-            }
-        } else {
-            lat = '45.786253';
-            lon = '4.879797';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -2448,6 +2448,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05817", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Internship Deep-Learning model for vascular tree simulations" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Saclay" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05817" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.714" == "" ) {
+            if("48.714" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.714';
+                lon = '2.206';
+            }
+        } else {
+            lat = '48.714';
+            lon = '2.206';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05744", _locale : "en" });
         offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Optimization of resources placement in Fog-based IoT systems based on latency analysis" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
@@ -2510,6 +2532,50 @@ function mapInit() {
         } else {
             lat = '48.116';
             lon = '-1.64';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05815", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Two years post-doctoral position in text/satellite cross-modal self-supervised learning" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05815" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-26" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("43.616" == "" ) {
+            if("43.616" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '43.616';
+                lon = '7.068';
+            }
+        } else {
+            lat = '43.616';
+            lon = '7.068';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05792", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Efficient data structures and algorithms for processing massive point clouds" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05792" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-26" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("43.616" == "" ) {
+            if("43.616" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '43.616';
+                lon = '7.068';
+            }
+        } else {
+            lat = '43.616';
+            lon = '7.068';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

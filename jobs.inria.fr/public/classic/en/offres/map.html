@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="dRct9vrw-beaud87F-HZ1xU9jPswl_zEWb2c0c2DO0o" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="dAjRJ2NHC5QY94MH-_W7OaB4rL9KPBNRLiMcyOc4dZg" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offers found 
-                                                 ( 184 )
+                                                 ( 188 )
                        </span> 
                             </div>
         </div>
@@ -2360,28 +2360,6 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05797", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M 3-year PhD position in Computational Models of Semantic Memory and its Acquisition" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05797" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
-        ;
-        if("50.606" == "" ) {
-            if("50.606" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '50.606';
-                lon = '3.149';
-            }
-        } else {
-            lat = '50.606';
-            lon = '3.149';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-04678", _locale : "en" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Post-Doctorant F/H PATH (PAtient PaThway in the Hospital environment) (F/M)" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
@@ -2466,6 +2444,72 @@ function mapInit() {
         } else {
             lat = '48.714';
             lon = '2.206';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05813", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Responsable de Service d’Expérimentation et de Développement" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Saclay" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05813" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.714" == "" ) {
+            if("48.714" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.714';
+                lon = '2.206';
+            }
+        } else {
+            lat = '48.714';
+            lon = '2.206';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05811", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Research Engineer F/H Impact of Information Structures on Service Pricing" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05811" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("50.606" == "" ) {
+            if("50.606" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '50.606';
+                lon = '3.149';
+            }
+        } else {
+            lat = '50.606';
+            lon = '3.149';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05797", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M 3-year PhD position in Computational Models of Semantic Memory and its Acquisition" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05797" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("50.606" == "" ) {
+            if("50.606" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '50.606';
+                lon = '3.149';
+            }
+        } else {
+            lat = '50.606';
+            lon = '3.149';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -2576,6 +2620,50 @@ function mapInit() {
         } else {
             lat = '43.616';
             lon = '7.068';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05819", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Reconstruction de la forme d’une main pour génération automatique d’un modèle 3D d’une orthèse d’écriture" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05819" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-22" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("45.218" == "" ) {
+            if("45.218" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '45.218';
+                lon = '5.807';
+            }
+        } else {
+            lat = '45.218';
+            lon = '5.807';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05820", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Directeur de projet Inria Academy" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05820" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-21" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -2959,6 +3047,28 @@ function mapInit() {
         + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2022-05646" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-12" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("43.616" == "" ) {
+            if("43.616" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '43.616';
+                lon = '7.068';
+            }
+        } else {
+            lat = '43.616';
+            lon = '7.068';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05794", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Assistant(e) Administratif(ve) d&#039;Equipe de Recherche (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05794" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-10" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
         ;
         if("43.616" == "" ) {
@@ -3548,28 +3658,6 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05450", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Software Development Engineer - MEG signal processing and visualization" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2022-05450" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-02-28" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
-        ;
-        if("43.616" == "" ) {
-            if("43.616" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '43.616';
-                lon = '7.068';
-            }
-        } else {
-            lat = '43.616';
-            lon = '7.068';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05587", _locale : "en" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur de Recherche (Collaboration Inria/Framatome)" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Saclay" + "</b></p>"   
@@ -4076,10 +4164,10 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05742", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Multi-sensor and Artificial Intelligence for the Factory of the Future" + "</b></p>"
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05741", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Post-Doctorant - Multi-robot formation control for collaborative SLAM" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05742" + "</p>"                        
+        + "<p class='h5'>Ref. " + "2023-05741" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-02-28" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
         ;
@@ -4098,10 +4186,10 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05741", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Post-Doctorant - Multi-robot formation control for collaborative SLAM" + "</b></p>"
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05742", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Multi-sensor and Artificial Intelligence for the Factory of the Future" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05741" + "</p>"                        
+        + "<p class='h5'>Ref. " + "2023-05742" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-02-28" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
         ;

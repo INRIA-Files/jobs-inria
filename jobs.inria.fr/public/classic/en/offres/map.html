@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="fEstlNyp6RBBaHgoU1MpPudAvxDX6xr4W4oGUhw0VEI" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="lvhMpuz6D3jnhZidniqfrG6n2SU4766BIq70s32BgiM" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offers found 
-                                                 ( 185 )
+                                                 ( 184 )
                        </span> 
                             </div>
         </div>
@@ -4578,28 +4578,6 @@ function mapInit() {
         } else {
             lat = '48.116';
             lon = '-1.64';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05655", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Geometric design by means of ML-enabled simulation" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2022-05655" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-02-21" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
-        ;
-        if("43.616" == "" ) {
-            if("43.616" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '43.616';
-                lon = '7.068';
-            }
-        } else {
-            lat = '43.616';
-            lon = '7.068';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

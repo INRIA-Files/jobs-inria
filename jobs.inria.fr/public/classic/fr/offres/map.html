@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="6l-e8qC5PupVESxwSqCS0v74VyM_Xxoo7sQzo-rTEAo" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="HAjcK1zlTZaqIwxnLHrQgNT7R8dwgeGoZuxQ5SOBU3M" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 192 )
+                                                 ( 191 )
                        </span> 
                             </div>
         </div>
@@ -1762,28 +1762,6 @@ function mapInit() {
         } else {
             lat = '48.84161';
             lon = '2.38446';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05597", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Master 2 Internship in Optimization" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Saclay" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2022-05597" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.714" == "" ) {
-            if("48.714" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.714';
-                lon = '2.206';
-            }
-        } else {
-            lat = '48.714';
-            lon = '2.206';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

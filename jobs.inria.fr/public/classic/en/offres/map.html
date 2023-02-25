@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="ME8WeR7vbgYbGrntg2f_P8KVYMRivlQKl9MV5CCfkW8" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="l67vordU-to9rEisbZ2grtrS8J0xiaXvW1031SqfRXU" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offers found 
-                                                 ( 191 )
+                                                 ( 190 )
                        </span> 
                             </div>
         </div>
@@ -4710,28 +4710,6 @@ function mapInit() {
         } else {
             lat = '45.218';
             lon = '5.807';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05721", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé.e des partenariats et des projets d’innovation pour le soutien à la création de start-up « Deep Tech » (F/H)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05721" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-02-24" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
-        ;
-        if("48.116" == "" ) {
-            if("48.116" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.116';
-                lon = '-1.64';
-            }
-        } else {
-            lat = '48.116';
-            lon = '-1.64';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="Z-lnnb7oIu9Y60O71vDs2LQJRYvHkRMKeexsqVIhZFo" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="ctb2GxQtev0n5nVUz0yfBTXkM4m1r4dNZpJzg6HAL0I" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 171 )
+                                                 ( 174 )
                        </span> 
                             </div>
         </div>
@@ -1216,6 +1216,50 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05822", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Research engineer / Postdoc on UHF RFID systems" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05822" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-02" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.116" == "" ) {
+            if("48.116" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.116';
+                lon = '-1.64';
+            }
+        } else {
+            lat = '48.116';
+            lon = '-1.64';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05844", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Dynamic Adaptation of Machine Learning and Deep Learning Workflows across the Cloud-Fog-Edge Continuum" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05844" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-02" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.116" == "" ) {
+            if("48.116" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.116';
+                lon = '-1.64';
+            }
+        } else {
+            lat = '48.116';
+            lon = '-1.64';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05672", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Internship Master 2: Dynamic Shape Analysis for Sparse Tensor Code" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
@@ -2004,6 +2048,28 @@ function mapInit() {
         } else {
             lat = '48.665522';
             lon = '6.157016';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05755", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Research Engineer position: software development" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05755" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-05" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("45.218" == "" ) {
+            if("45.218" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '45.218';
+                lon = '5.807';
+            }
+        } else {
+            lat = '45.218';
+            lon = '5.807';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -4054,6 +4120,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05845", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Control of a sailing boat: from virtual to real, and back" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05845" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-11" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("50.606" == "" ) {
+            if("50.606" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '50.606';
+                lon = '3.149';
+            }
+        } else {
+            lat = '50.606';
+            lon = '3.149';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05794", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Assistant(e) Administratif(ve) d&#039;Equipe de Recherche (H/F)" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
@@ -4212,28 +4300,6 @@ function mapInit() {
         offreDetail = "<p class='h4 red-inria'><b>" + "Stage IA et écoresponsabilité" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2022-05629" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-05" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.218" == "" ) {
-            if("45.218" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.218';
-                lon = '5.807';
-            }
-        } else {
-            lat = '45.218';
-            lon = '5.807';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05755", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Research Engineer position: software development" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05755" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-05" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
         ;

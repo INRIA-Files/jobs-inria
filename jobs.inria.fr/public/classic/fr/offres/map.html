@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="nv2brx5Ho-A6oP8sr1Eh2MWiwJTJiY4dRL3MEIz98hk" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="fFc_Ozw9LIVfUha08dsN8ZnlirD5naHL5heyzZ_wTcE" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 170 )
+                                                 ( 169 )
                        </span> 
                             </div>
         </div>
@@ -4248,28 +4248,6 @@ function mapInit() {
         } else {
             lat = '48.84161';
             lon = '2.38446';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05759", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Responsable du service des dépenses" + "</b></p>"
-        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05759" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-02" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.837117" == "" ) {
-            if("48.837117" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.837117';
-                lon = '2.103108';
-            }
-        } else {
-            lat = '48.837117';
-            lon = '2.103108';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

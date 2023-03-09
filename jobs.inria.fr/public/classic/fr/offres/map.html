@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="wIuxT1eh7Xp1qTv8Eg_l6Sk_pSr3EOK8xmCiV1qLC2U" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="Oa2Iu1-T9D9obJuVsrhsdjftiiIPAKLcnVbpSFFrEBM" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 186 )
+                                                 ( 189 )
                        </span> 
                             </div>
         </div>
@@ -1810,6 +1810,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05829", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Biomechanical optimization of exoskeleton assistance" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05829" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-30" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.116" == "" ) {
+            if("48.116" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.116';
+                lon = '-1.64';
+            }
+        } else {
+            lat = '48.116';
+            lon = '-1.64';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05689", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Post-Doctoral Research Visit F/M Automatic speech recognition for non-natives speakers in a noisy environment" + "</b></p>"
         + "<p class='h5'><b> " + "CRI Nancy - Grand Est" + "</b></p>"   
@@ -2074,6 +2096,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05790", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H Inversion acoustique articulatoire de la parole à l’aide d’images IRM dynamiques" + "</b></p>"
+        + "<p class='h5'><b> " + "CRI Nancy - Grand Est" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05790" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-15" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.665522" == "" ) {
+            if("48.665522" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.665522';
+                lon = '6.157016';
+            }
+        } else {
+            lat = '48.665522';
+            lon = '6.157016';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05737", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e de recherche : interopérabilité d’outils de fouille de graphes et de données relationnelles" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
@@ -2268,6 +2312,50 @@ function mapInit() {
         } else {
             lat = '48.116';
             lon = '-1.64';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05450", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur Développement Logiciel - Traitement et visualisation du signal MEG" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2022-05450" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-09" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("43.616" == "" ) {
+            if("43.616" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '43.616';
+                lon = '7.068';
+            }
+        } else {
+            lat = '43.616';
+            lon = '7.068';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05828", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e en développement Web &amp; UX/UI design Pl@ntNet F/H/n" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05828" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-09" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("43.616" == "" ) {
+            if("43.616" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '43.616';
+                lon = '7.068';
+            }
+        } else {
+            lat = '43.616';
+            lon = '7.068';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -4142,6 +4230,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05794", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Assistant(e) Administratif(ve) d&#039;Equipe de Recherche (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05794" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-22" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("43.616" == "" ) {
+            if("43.616" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '43.616';
+                lon = '7.068';
+            }
+        } else {
+            lat = '43.616';
+            lon = '7.068';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05820", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Directeur de projet Inria Academy" + "</b></p>"
         + "<p class='h5'><b> " + "Siège" + "</b></p>"   
@@ -4362,28 +4472,6 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05790", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H Inversion acoustique articulatoire de la parole à l’aide d’images IRM dynamiques" + "</b></p>"
-        + "<p class='h5'><b> " + "CRI Nancy - Grand Est" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05790" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-16" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.665522" == "" ) {
-            if("48.665522" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.665522';
-                lon = '6.157016';
-            }
-        } else {
-            lat = '48.665522';
-            lon = '6.157016';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05326", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Software Heritage: large-scale empirical analysis of open source code artifacts" + "</b></p>"
         + "<p class='h5'><b> " + "Siège" + "</b></p>"   
@@ -4534,28 +4622,6 @@ function mapInit() {
         } else {
             lat = '50.606';
             lon = '3.149';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05794", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Assistant(e) Administratif(ve) d&#039;Equipe de Recherche (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05794" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-10" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("43.616" == "" ) {
-            if("43.616" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '43.616';
-                lon = '7.068';
-            }
-        } else {
-            lat = '43.616';
-            lon = '7.068';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="Lo9TiZJx5-97tQWIY17linvm_vIAp10ypo1LEP8TGc8" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="abReFxs_DeL8g-LVKTsczAAfig_3wzupBTkstdH0fq8" /></form>
         </div>
     </div>
 </div>
@@ -2228,6 +2228,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05863", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé de Ressources Humaines F/H" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05863" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-04-10" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05670", _locale : "en" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctorant F/H Modèles de données et estimations de coût computationnel pour la souveraineté européenne de l’IA" + "</b></p>"
         + "<p class='h5'><b> " + "Siège" + "</b></p>"   
@@ -4204,28 +4226,6 @@ function mapInit() {
         } else {
             lat = '48.837117';
             lon = '2.103108';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05819", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Reconstruction de la forme d’une main pour génération automatique d’un modèle 3D d’une orthèse d’écriture" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05819" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-22" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
-        ;
-        if("45.218" == "" ) {
-            if("45.218" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.218';
-                lon = '5.807';
-            }
-        } else {
-            lat = '45.218';
-            lon = '5.807';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

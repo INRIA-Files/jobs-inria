@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="8QPHHsphd16HCJ0CVnHxhy6i3XoRP6orjcOgOdrrBKw" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="4WHwh8yTIWrCtsH6DQmY0UVBxA8p1BMD_0rq8hslKHo" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 187 )
+                                                 ( 186 )
                        </span> 
                             </div>
         </div>
@@ -4622,28 +4622,6 @@ function mapInit() {
         } else {
             lat = '43.616';
             lon = '7.068';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05789", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé(e) de Ressources Humaines (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Saclay" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05789" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-13" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.714" == "" ) {
-            if("48.714" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.714';
-                lon = '2.206';
-            }
-        } else {
-            lat = '48.714';
-            lon = '2.206';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

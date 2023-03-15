@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="2jZc7qPFdSJlJ0JD89TPfUrClHcdPZnwM2ipev3kufw" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="myYY-YCjopyWR4bOXCI4Y7bCWph3fnjhCd-o9wNGlzQ" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offers found 
-                                                 ( 198 )
+                                                 ( 199 )
                        </span> 
                             </div>
         </div>
@@ -1330,6 +1330,28 @@ function mapInit() {
         offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Pole Vault generic analysis, human motion and optimal interaction" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2023-05796" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-05-15" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.116" == "" ) {
+            if("48.116" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.116';
+                lon = '-1.64';
+            }
+        } else {
+            lat = '48.116';
+            lon = '-1.64';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05893", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Full-Body Design and Control of an Aerial Manipulator for Advance Physical Interaction" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05893" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-05-15" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
         ;

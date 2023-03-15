@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="sXokiKy6t_n4rhnn77UCWUh7aSwSFu_EzSLx2NkVdFc" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="2jZc7qPFdSJlJ0JD89TPfUrClHcdPZnwM2ipev3kufw" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offers found 
-                                                 ( 195 )
+                                                 ( 198 )
                        </span> 
                             </div>
         </div>
@@ -1370,6 +1370,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05882", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Engineering position on differents aspects of eXplainable AI" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05882" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-05-14" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.116" == "" ) {
+            if("48.116" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.116';
+                lon = '-1.64';
+            }
+        } else {
+            lat = '48.116';
+            lon = '-1.64';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05837", _locale : "en" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Software Engineer-coding/web" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
@@ -2378,6 +2400,50 @@ function mapInit() {
         } else {
             lat = '50.606';
             lon = '3.149';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05889", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé-e d’accompagnement à la création de start-up &quot;Deep Tech&quot; et de partenariats avec les entreprises" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05889" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-04-15" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("45.218" == "" ) {
+            if("45.218" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '45.218';
+                lon = '5.807';
+            }
+        } else {
+            lat = '45.218';
+            lon = '5.807';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05892", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé (e) de Ressources Humaines H/F" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05892" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-04-15" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("45.786253" == "" ) {
+            if("45.786253" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '45.786253';
+                lon = '4.879797';
+            }
+        } else {
+            lat = '45.786253';
+            lon = '4.879797';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

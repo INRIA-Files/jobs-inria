@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="B_9r8bV0xWwWuQjH5YxS7R3oPZZJhROYU546480TG-k" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="sXokiKy6t_n4rhnn77UCWUh7aSwSFu_EzSLx2NkVdFc" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 194 )
+                                                 ( 195 )
                        </span> 
                             </div>
         </div>
@@ -926,6 +926,28 @@ function mapInit() {
         } else {
             lat = '48.116202';
             lon = '-1.63963';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05888", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé de recherche / Ingénieur de recherche Défense en Traitement automatique de la parole (F/H)" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05888" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-06-15" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

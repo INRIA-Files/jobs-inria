@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="E6RaWLz8sLeEfonObeIW4sha3Oo3PlQVSnWXA-MB4Nw" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="TS_vCXlfms9o-LWzi-zUEh5RpGOsx8JSFe1jaFaHFaQ" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offers found 
-                                                 ( 210 )
+                                                 ( 208 )
                        </span> 
                             </div>
         </div>
@@ -1194,28 +1194,6 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05826", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Computer Vision: Conditioned 3D scene generation" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05826" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-05-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
-        ;
-        if("48.84161" == "" ) {
-            if("48.84161" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.84161';
-                lon = '2.38446';
-            }
-        } else {
-            lat = '48.84161';
-            lon = '2.38446';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-04854", _locale : "en" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur Infrastructure et cloud - H/F" + "</b></p>"
         + "<p class='h5'><b> " + "Siège" + "</b></p>"   
@@ -1814,28 +1792,6 @@ function mapInit() {
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctorant F/H Développement et analyse de modèles agent-centrés couplant échanges énergétiques et mécanique pour modéliser la morphogénèse et la maintenance de tissus biologiques" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2023-05679" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-04-30" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
-        ;
-        if("48.84161" == "" ) {
-            if("48.84161" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.84161';
-                lon = '2.38446';
-            }
-        } else {
-            lat = '48.84161';
-            lon = '2.38446';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05292", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Computer Vision internship: weakly supervised computer vision" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2022-05292" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-04-30" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
         ;

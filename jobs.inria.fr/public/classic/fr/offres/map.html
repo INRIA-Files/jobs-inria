@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="oM_a6iu9M-sOkZei2H0IsGAALjpvHUnyuHnq2ijMXAI" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="fJE6-GWaiNQDm_ALa8n7KTw38kS1DLTsk7MLum3oi_w" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 217 )
+                                                 ( 218 )
                        </span> 
                             </div>
         </div>
@@ -1388,6 +1388,28 @@ function mapInit() {
         } else {
             lat = '48.116202';
             lon = '-1.63963';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05930", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Trustworthy AI hardware architectures" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05930" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-20" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.116" == "" ) {
+            if("48.116" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.116';
+                lon = '-1.64';
+            }
+        } else {
+            lat = '48.116';
+            lon = '-1.64';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

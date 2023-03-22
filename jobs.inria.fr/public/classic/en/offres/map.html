@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="RiIKhZgJ_2KvBM8g-IfgVhq9jeRg1BkwZz97cQWsh8U" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="tyF5R8y1nEWzVKdO6P7Si4f8XyqJi1heFDo3U8nWw_E" /></form>
         </div>
     </div>
 </div>
@@ -1810,6 +1810,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05470", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Acheteur public (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2022-05470" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-04-30" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05699", _locale : "en" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur Système et Réseau pour SLICES-FR" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
@@ -2537,7 +2559,7 @@ function mapInit() {
             .openPopup());
         map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05915", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "[Mobilité] Juriste achats/marchés publics (H/F)" + "</b></p>"
+        offreDetail = "<p class='h4 red-inria'><b>" + "[Mobilité] Acheteur public (H/F)" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2023-05915" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-04-20" + "</b></p>"
@@ -3962,28 +3984,6 @@ function mapInit() {
         } else {
             lat = '48.116';
             lon = '-1.64';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05470", _locale : "en" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Acheteur public (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2022-05470" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
-        ;
-        if("48.837117" == "" ) {
-            if("48.837117" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.837117';
-                lon = '2.103108';
-            }
-        } else {
-            lat = '48.837117';
-            lon = '2.103108';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="OdsCXoLT0ioatFq0nVt5mWeMqguisj_7W48Df9nfuYw" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="T0aCM1VT1GnJAUt6jh8w4llZYNIN7ln7lBBI9l8ieLw" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 233 )
+                                                 ( 230 )
                        </span> 
                             </div>
         </div>
@@ -1106,28 +1106,6 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05740", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctorant F/H Planification et commande optimale de systèmes multi-agents coopératifs" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05740" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("43.616" == "" ) {
-            if("43.616" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '43.616';
-                lon = '7.068';
-            }
-        } else {
-            lat = '43.616';
-            lon = '7.068';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05741", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Post-Doctorant - Multi-robot formation control for collaborative SLAM" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
@@ -1154,6 +1132,28 @@ function mapInit() {
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctorant F/H Détection d&#039;erreurs de montages par comparaison d&#039;une maquette numérique avec des mesures acquises avec un systeme multi-capteurs" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2023-05742" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("43.616" == "" ) {
+            if("43.616" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '43.616';
+                lon = '7.068';
+            }
+        } else {
+            lat = '43.616';
+            lon = '7.068';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05740", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctorant F/H Planification et commande optimale de systèmes multi-agents coopératifs" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05740" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
         ;
@@ -5590,72 +5590,6 @@ function mapInit() {
         } else {
             lat = '44.808';
             lon = '-0.6';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05739", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Decentralized Machine Learning Framework" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05739" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-26" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.116" == "" ) {
-            if("48.116" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.116';
-                lon = '-1.64';
-            }
-        } else {
-            lat = '48.116';
-            lon = '-1.64';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05746", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Private and Decentralized Machine Learning" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05746" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-26" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.116" == "" ) {
-            if("48.116" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.116';
-                lon = '-1.64';
-            }
-        } else {
-            lat = '48.116';
-            lon = '-1.64';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05792", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Efficient data structures and algorithms for processing massive point clouds" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05792" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-26" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("43.616" == "" ) {
-            if("43.616" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '43.616';
-                lon = '7.068';
-            }
-        } else {
-            lat = '43.616';
-            lon = '7.068';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

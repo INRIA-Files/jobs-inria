@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="87QqgQqN3uL6b4-IWE2c9Jtl9ZNd1e6I-Vs-htIxXcM" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="vXhQ9swzVLGl2Cy_4vuPqxH0ArtADCBlSjZUjB_hvkc" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 243 )
+                                                 ( 245 )
                        </span> 
                             </div>
         </div>
@@ -1326,6 +1326,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05887", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Gestionnaire des Ressources Humaines (h/f)" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05887" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05611", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Physics-Informed Neural Network for electromagnetic wave propagation" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
@@ -1374,6 +1396,28 @@ function mapInit() {
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctorant F/H Impact de contrôle en boucle fermé et battements auditifs sur l&#039;attention chez les humains" + "</b></p>"
         + "<p class='h5'><b> " + "CRI Nancy - Grand Est" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2023-05980" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-28" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.665522" == "" ) {
+            if("48.665522" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.665522';
+                lon = '6.157016';
+            }
+        } else {
+            lat = '48.665522';
+            lon = '6.157016';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05981", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H Vérification de propriétés liés à la cyber-sécurité grâce aux méthodes formelles" + "</b></p>"
+        + "<p class='h5'><b> " + "CRI Nancy - Grand Est" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05981" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-28" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
         ;

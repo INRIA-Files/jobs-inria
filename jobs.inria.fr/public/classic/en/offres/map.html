@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="87QqgQqN3uL6b4-IWE2c9Jtl9ZNd1e6I-Vs-htIxXcM" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="vXhQ9swzVLGl2Cy_4vuPqxH0ArtADCBlSjZUjB_hvkc" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offers found 
-                                                 ( 244 )
+                                                 ( 246 )
                        </span> 
                             </div>
         </div>
@@ -1322,6 +1322,28 @@ function mapInit() {
         } else {
             lat = '48.84161';
             lon = '2.38446';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05887", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Gestionnaire des Ressources Humaines (h/f)" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05887" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -2620,6 +2642,28 @@ function mapInit() {
         } else {
             lat = '48.837117';
             lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05961", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur(e) développement logiciel spécialiste en méthodes numériques" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;université de Bordeaux" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05961" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-04-28" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("44.808" == "" ) {
+            if("44.808" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '44.808';
+                lon = '-0.6';
+            }
+        } else {
+            lat = '44.808';
+            lon = '-0.6';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="dcEVZZLRP6_xPxiG-NyxPTmoptx6e06vlC79F3fNzE8" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="t3cXVleulKvIXjAxm_E2Jxe3QI4AYryS5qx2NwLbrEo" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 268 )
+                                                 ( 272 )
                        </span> 
                             </div>
         </div>
@@ -996,10 +996,76 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05364", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Assistant administratif d&#039;équipes (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2022-05364" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.84161" == "" ) {
+            if("48.84161" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.84161';
+                lon = '2.38446';
+            }
+        } else {
+            lat = '48.84161';
+            lon = '2.38446';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05391", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctorant F/H Modélisation stochastique des réseaux de communications" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2022-05391" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.84161" == "" ) {
+            if("48.84161" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.84161';
+                lon = '2.38446';
+            }
+        } else {
+            lat = '48.84161';
+            lon = '2.38446';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05406", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Gestionnaire financier (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2022-05406" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.84161" == "" ) {
+            if("48.84161" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.84161';
+                lon = '2.38446';
+            }
+        } else {
+            lat = '48.84161';
+            lon = '2.38446';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05499", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Acheteur Public (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2022-05499" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
         ;
@@ -1102,6 +1168,94 @@ function mapInit() {
         } else {
             lat = '43.616';
             lon = '7.068';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-04505", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e de production des infrastructures de recherche - Saclay (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2022-04505" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-04817", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e systèmes et réseaux sur les moyens de calculs H/F" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2022-04817" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05371", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur Systèmes et Réseaux (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2022-05371" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05724", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Assistant administratif de services (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05724" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.84161" == "" ) {
+            if("48.84161" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.84161';
+                lon = '2.38446';
+            }
+        } else {
+            lat = '48.84161';
+            lon = '2.38446';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -1594,6 +1748,28 @@ function mapInit() {
         offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M [Campagne CORDI-S] PhD Position - Robust Anomaly Detection in Multimodal Neuroimaging" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2023-05971" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-24" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.84161" == "" ) {
+            if("48.84161" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.84161';
+                lon = '2.38446';
+            }
+        } else {
+            lat = '48.84161';
+            lon = '2.38446';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05989", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M [Campagne CORDI-S] Abstract Interpretation-Based Static Analyses for Robust (Un)Reachability" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05989" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-24" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
         ;
@@ -2558,6 +2734,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05748", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Coordinateur du programme de recherche CornelIA  (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05748" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-30" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("50.606" == "" ) {
+            if("50.606" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '50.606';
+                lon = '3.149';
+            }
+        } else {
+            lat = '50.606';
+            lon = '3.149';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05310", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Contrôleur de gestion des immobilisations et de l&#039;inventaire physique des biens mobiliers et immobiliers (H/F)" + "</b></p>"
         + "<p class='h5'><b> " + "Siège" + "</b></p>"   
@@ -2822,6 +3020,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05992", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Adjoint à la Directrice d’Inria Défense &amp; Sécurité (F/H)" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05992" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-29" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05689", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Post-Doctoral Research Visit F/M Automatic speech recognition for non-natives speakers in a noisy environment" + "</b></p>"
         + "<p class='h5'><b> " + "CRI Nancy - Grand Est" + "</b></p>"   
@@ -3016,6 +3236,50 @@ function mapInit() {
         } else {
             lat = '43.616';
             lon = '7.068';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06001", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé(e) des partenariats et des projets d’innovation (CPPI)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Saclay" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06001" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-28" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.714" == "" ) {
+            if("48.714" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.714';
+                lon = '2.206';
+            }
+        } else {
+            lat = '48.714';
+            lon = '2.206';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06006", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur spécialiste en développement logiciel - SLICES (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06006" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-28" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("50.606" == "" ) {
+            if("50.606" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '50.606';
+                lon = '3.149';
+            }
+        } else {
+            lat = '50.606';
+            lon = '3.149';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -3922,6 +4186,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06003", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur développement logiciel spécialiste en robotique et communications embarquées" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06003" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-16" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("45.786253" == "" ) {
+            if("45.786253" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '45.786253';
+                lon = '4.879797';
+            }
+        } else {
+            lat = '45.786253';
+            lon = '4.879797';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05718", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Responsable Administratif et Financier (H/F)" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Saclay" + "</b></p>"   
@@ -4406,6 +4692,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05935", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e Cybersécurité" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05935" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-10" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05985", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e Pédagogique" + "</b></p>"
         + "<p class='h5'><b> " + "Siège" + "</b></p>"   
@@ -4648,28 +4956,6 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05935", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e Cybersécurité" + "</b></p>"
-        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05935" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-07" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.837117" == "" ) {
-            if("48.837117" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.837117';
-                lon = '2.103108';
-            }
-        } else {
-            lat = '48.837117';
-            lon = '2.103108';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05849", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Internship - Numerical modelling for stenosis characterisation" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Saclay" + "</b></p>"   
@@ -4886,72 +5172,6 @@ function mapInit() {
         } else {
             lat = '44.808056';
             lon = '-0.599722';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05364", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Assistant administratif d&#039;équipes (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2022-05364" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.84161" == "" ) {
-            if("48.84161" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.84161';
-                lon = '2.38446';
-            }
-        } else {
-            lat = '48.84161';
-            lon = '2.38446';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05406", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Gestionnaire financier (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2022-05406" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.84161" == "" ) {
-            if("48.84161" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.84161';
-                lon = '2.38446';
-            }
-        } else {
-            lat = '48.84161';
-            lon = '2.38446';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05499", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Acheteur Public (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2022-05499" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.84161" == "" ) {
-            if("48.84161" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.84161';
-                lon = '2.38446';
-            }
-        } else {
-            lat = '48.84161';
-            lon = '2.38446';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -5264,72 +5484,6 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-04505", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e de production des infrastructures de recherche - Saclay (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2022-04505" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.837117" == "" ) {
-            if("48.837117" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.837117';
-                lon = '2.103108';
-            }
-        } else {
-            lat = '48.837117';
-            lon = '2.103108';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-04817", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e de production des moyens de calcul H/F" + "</b></p>"
-        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2022-04817" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.837117" == "" ) {
-            if("48.837117" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.837117';
-                lon = '2.103108';
-            }
-        } else {
-            lat = '48.837117';
-            lon = '2.103108';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05371", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur Systèmes et Réseaux (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2022-05371" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.837117" == "" ) {
-            if("48.837117" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.837117';
-                lon = '2.103108';
-            }
-        } else {
-            lat = '48.837117';
-            lon = '2.103108';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2021-04263", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur Système/Développement pour SLICES - Monitoring énergétique de plate-formes informatiques expérimentales" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
@@ -5374,28 +5528,6 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05694", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Administrateur.e support - centre Inria de l&#039;Université de Lille - DSI-CDS (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05694" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.837117" == "" ) {
-            if("48.837117" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.837117';
-                lon = '2.103108';
-            }
-        } else {
-            lat = '48.837117';
-            lon = '2.103108';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05710", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Video-based dynamic garment representation and synthesis" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
@@ -5436,28 +5568,6 @@ function mapInit() {
         } else {
             lat = '48.837117';
             lon = '2.103108';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05724", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Assistant administratif de services (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05724" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.84161" == "" ) {
-            if("48.84161" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.84161';
-                lon = '2.38446';
-            }
-        } else {
-            lat = '48.84161';
-            lon = '2.38446';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -6316,28 +6426,6 @@ function mapInit() {
         } else {
             lat = '48.837117';
             lon = '2.103108';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05748", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Coordinateur du programme de recherche CornelIA  (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05748" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-03-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("50.606" == "" ) {
-            if("50.606" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '50.606';
-                lon = '3.149';
-            }
-        } else {
-            lat = '50.606';
-            lon = '3.149';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

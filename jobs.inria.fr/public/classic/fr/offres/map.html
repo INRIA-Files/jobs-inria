@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="RIMhbkkvggw1un4oZsPkLnFt4TlLQRx31baSVCp5W8o" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="vJopzRfiOhH_QX4W2h1kcKBSM5Xe7B2Ll9r5muN0fLs" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 299 )
+                                                 ( 301 )
                        </span> 
                             </div>
         </div>
@@ -3130,6 +3130,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05609", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Gestionnaire Paie (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2022-05609" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-06" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05846", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "R&amp;D engineer in distributed computing for the edge-to cloud continuum - the E2Clab project" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
@@ -5766,6 +5788,28 @@ function mapInit() {
         } else {
             lat = '48.837117';
             lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06064", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé-e des partenariats et des projets d’innovation pour le soutien à la création de start-up « Deep Tech »" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;université de Bordeaux" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06064" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-21" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("44.808" == "" ) {
+            if("44.808" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '44.808';
+                lon = '-0.6';
+            }
+        } else {
+            lat = '44.808';
+            lon = '-0.6';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

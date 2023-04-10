@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="8O4iK8RalY4Y6rd0cURl9kqIzckBwGAvkVh7a7qTfq0" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="NWPk0LVZbsFbPeuDn_Dn_p5mWFowcxG7JUSYt4P0pXA" /></form>
         </div>
     </div>
 </div>
@@ -2030,28 +2030,6 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06040", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H Processus de Markov déterministes par morceaux et inférence bayésienne de réseaux de gènes" + "</b></p>"
-        + "<p class='h5'><b> " + "CRI Nancy - Grand Est" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-06040" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.665522" == "" ) {
-            if("48.665522" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.665522';
-                lon = '6.157016';
-            }
-        } else {
-            lat = '48.665522';
-            lon = '6.157016';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06038", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M PhD position: Combinatorial convexity, its generalizations and applications to optimization" + "</b></p>"
         + "<p class='h5'><b> " + "CRI Nancy - Grand Est" + "</b></p>"   
@@ -2994,6 +2972,28 @@ function mapInit() {
         } else {
             lat = '43.616';
             lon = '7.068';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06040", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H Processus de Markov déterministes par morceaux et inférence bayésienne de réseaux de gènes" + "</b></p>"
+        + "<p class='h5'><b> " + "CRI Nancy - Grand Est" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06040" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-09" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.665522" == "" ) {
+            if("48.665522" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.665522';
+                lon = '6.157016';
+            }
+        } else {
+            lat = '48.665522';
+            lon = '6.157016';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

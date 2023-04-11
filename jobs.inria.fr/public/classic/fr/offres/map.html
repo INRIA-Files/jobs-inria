@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="gaK68TiEZfA5PaOkz1Du2VreAA35XAiU5NdBy6-OEQE" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="fB1mPikIVOQ70mpZla7XbGvYnkofX0Yt0LzM_I6JLJ0" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 295 )
+                                                 ( 296 )
                        </span> 
                             </div>
         </div>
@@ -4886,6 +4886,28 @@ function mapInit() {
         } else {
             lat = '48.837117';
             lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05148", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Online Federated Learning with Non-i.i.d. Data" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2022-05148" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-30" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("45.786253" == "" ) {
+            if("45.786253" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '45.786253';
+                lon = '4.879797';
+            }
+        } else {
+            lat = '45.786253';
+            lon = '4.879797';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

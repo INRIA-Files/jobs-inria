@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="Tb5gD7yxIre11IljezOO5DiLw9cXPY5q0pqffvuCkqg" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="OrTIUyIbDHP6mZl9hwOCexTh78_n81c2cD5ZaQ3gd3s" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 309 )
+                                                 ( 310 )
                        </span> 
                             </div>
         </div>
@@ -1168,6 +1168,28 @@ function mapInit() {
         } else {
             lat = '43.616';
             lon = '7.068';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05737", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e de recherche : interopérabilité d’outils de fouille de graphes et de données relationnelles" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05737" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-06-15" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.116" == "" ) {
+            if("48.116" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.116';
+                lon = '-1.64';
+            }
+        } else {
+            lat = '48.116';
+            lon = '-1.64';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -2910,6 +2932,72 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05892", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé (e) de Ressources Humaines H/F" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05892" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-16" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("45.786253" == "" ) {
+            if("45.786253" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '45.786253';
+                lon = '4.879797';
+            }
+        } else {
+            lat = '45.786253';
+            lon = '4.879797';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05884", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé(e) des Partenariats et des Projets d’Innovation Europe post-award" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05884" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-16" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("45.786253" == "" ) {
+            if("45.786253" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '45.786253';
+                lon = '4.879797';
+            }
+        } else {
+            lat = '45.786253';
+            lon = '4.879797';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05900", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "CHARGE DE PREVENTION (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05900" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-16" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("45.786253" == "" ) {
+            if("45.786253" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '45.786253';
+                lon = '4.879797';
+            }
+        } else {
+            lat = '45.786253';
+            lon = '4.879797';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05796", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H Saut à la perche, analyse générique du mouvement humain et des techniques d&#039;interaction" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
@@ -2972,6 +3060,28 @@ function mapInit() {
         } else {
             lat = '48.837117';
             lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06107", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Apprenti.e chargé.e de communication" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06107" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-15" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("45.218" == "" ) {
+            if("45.218" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '45.218';
+                lon = '5.807';
+            }
+        } else {
+            lat = '45.218';
+            lon = '5.807';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -6782,28 +6892,6 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05737", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e de recherche : interopérabilité d’outils de fouille de graphes et de données relationnelles" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05737" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-15" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.116" == "" ) {
-            if("48.116" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.116';
-                lon = '-1.64';
-            }
-        } else {
-            lat = '48.116';
-            lon = '-1.64';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05791", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctorant F/H [Campagne POSTDOC MI-NF-LYS-2023] Méthodes formelles pour la vérification de propriété éléctriques sur des circuits intégrés (F/H)" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
@@ -6866,72 +6954,6 @@ function mapInit() {
         } else {
             lat = '45.218';
             lon = '5.807';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05892", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé (e) de Ressources Humaines H/F" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05892" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-15" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.786253" == "" ) {
-            if("45.786253" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.786253';
-                lon = '4.879797';
-            }
-        } else {
-            lat = '45.786253';
-            lon = '4.879797';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05884", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé(e) des Partenariats et des Projets d’Innovation Europe post-award" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05884" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-15" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.786253" == "" ) {
-            if("45.786253" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.786253';
-                lon = '4.879797';
-            }
-        } else {
-            lat = '45.786253';
-            lon = '4.879797';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05900", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "CHARGE DE PREVENTION (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05900" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-15" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.786253" == "" ) {
-            if("45.786253" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.786253';
-                lon = '4.879797';
-            }
-        } else {
-            lat = '45.786253';
-            lon = '4.879797';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

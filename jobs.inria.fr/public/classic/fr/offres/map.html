@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="0WYq_ETaS7gXlq7RijgYgmBttxxa3FOsfgrB7kfbtCw" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="pqr-k39sp9l68RRrDnfG_cM6YcIeRrszLW0vlAnzwZU" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 298 )
+                                                 ( 292 )
                        </span> 
                             </div>
         </div>
@@ -2576,6 +2576,28 @@ function mapInit() {
         } else {
             lat = '44.808';
             lon = '-0.6';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06126", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Technology &amp; Innovation manager programme Technologies Quantiques (H/F)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06126" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.84161" == "" ) {
+            if("48.84161" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.84161';
+                lon = '2.38446';
+            }
+        } else {
+            lat = '48.84161';
+            lon = '2.38446';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -6932,160 +6954,6 @@ function mapInit() {
         } else {
             lat = '50.606';
             lon = '3.149';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05710", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Video-based dynamic garment representation and synthesis" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05710" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-16" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.218" == "" ) {
-            if("45.218" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.218';
-                lon = '5.807';
-            }
-        } else {
-            lat = '45.218';
-            lon = '5.807';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05872", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e pour le projet Jasmin" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05872" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-16" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("43.616" == "" ) {
-            if("43.616" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '43.616';
-                lon = '7.068';
-            }
-        } else {
-            lat = '43.616';
-            lon = '7.068';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05868", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M  CIFRE - Secure, Private and Multi-modal Authentication" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05868" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-16" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.786253" == "" ) {
-            if("45.786253" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.786253';
-                lon = '4.879797';
-            }
-        } else {
-            lat = '45.786253';
-            lon = '4.879797';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05880", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H Algorithmes quantiques dédiés aux systèmes NOMA" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05880" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-16" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.786253" == "" ) {
-            if("45.786253" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.786253';
-                lon = '4.879797';
-            }
-        } else {
-            lat = '45.786253';
-            lon = '4.879797';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05886", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé(e) des Partenariats et des Projets d&#039;Innovation (partenariats et start-up)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05886" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-16" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.786253" == "" ) {
-            if("45.786253" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.786253';
-                lon = '4.879797';
-            }
-        } else {
-            lat = '45.786253';
-            lon = '4.879797';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06003", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur développement logiciel spécialiste en robotique et communications embarquées" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Lyon" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-06003" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-16" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.786253" == "" ) {
-            if("45.786253" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.786253';
-                lon = '4.879797';
-            }
-        } else {
-            lat = '45.786253';
-            lon = '4.879797';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05793", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Pilote maintenance et logistique H/F" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05793" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-16" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.218" == "" ) {
-            if("45.218" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.218';
-                lon = '5.807';
-            }
-        } else {
-            lat = '45.218';
-            lon = '5.807';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

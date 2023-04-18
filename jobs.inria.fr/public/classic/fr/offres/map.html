@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="9QCQGCDgNZW4KgEaVXbwf-x14eFsJCUryH8n2j6P5N4" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="qgxWxfhKG6URexFLvhXWvhnAwihvjVmqiwjzqqQJq2s" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 304 )
+                                                 ( 305 )
                        </span> 
                             </div>
         </div>
@@ -2690,6 +2690,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06131", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e de recherche : système d’identification de plantes low-tech et pédagogique" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Rennes" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06131" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-31" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.116" == "" ) {
+            if("48.116" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.116';
+                lon = '-1.64';
+            }
+        } else {
+            lat = '48.116';
+            lon = '-1.64';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2022-05611", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Physics-Informed Neural Network for electromagnetic wave propagation" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
@@ -3742,6 +3764,28 @@ function mapInit() {
         } else {
             lat = '48.837117';
             lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05756", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H Utilisation de signaux haptiques pour améliorer l&#039;interaction par micro-gestes" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05756" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-12" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("50.606" == "" ) {
+            if("50.606" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '50.606';
+                lon = '3.149';
+            }
+        } else {
+            lat = '50.606';
+            lon = '3.149';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -7182,28 +7226,6 @@ function mapInit() {
         offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H [ALRC 2023] Interaction au delà des limites de la boucle sensori-motrice" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2023-05757" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-18" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("50.606" == "" ) {
-            if("50.606" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '50.606';
-                lon = '3.149';
-            }
-        } else {
-            lat = '50.606';
-            lon = '3.149';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05756", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H Utilisation de signaux haptiques pour améliorer l&#039;interaction par micro-gestes" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05756" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-18" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
         ;

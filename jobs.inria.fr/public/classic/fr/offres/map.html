@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="rXtoEHo4a7Yrw4TMI5wVCoHZS1mgsllUcc0zUWWHxVs" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="dvNJmKdzcmFzUOEf-N3XdnQoe3qrDw92osHILHCv29w" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 304 )
+                                                 ( 299 )
                        </span> 
                             </div>
         </div>
@@ -3416,6 +3416,28 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05750", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Mission IA // Assistant.e de direction (F/H)" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05750" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-15" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05790", _locale : "fr" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H Inversion acoustique articulatoire de la parole à l’aide d’images IRM dynamiques" + "</b></p>"
         + "<p class='h5'><b> " + "CRI Nancy - Grand Est" + "</b></p>"   
@@ -4582,10 +4604,10 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06112", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M DOCT2023-Premedical Causal inference for combining experimental and observational data" + "</b></p>"
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06113", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H [DOCT2023-LEMON] Modélisation couplant hydrodynamique et transport d&#039;embâcles lors d’inondations" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-06112" + "</p>"                        
+        + "<p class='h5'>Ref. " + "2023-06113" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-05" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
         ;
@@ -4604,10 +4626,10 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06113", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H [DOCT2023-LEMON] Modélisation couplant hydrodynamique et transport d&#039;embâcles lors d’inondations" + "</b></p>"
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06112", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M DOCT2023-Premedical Causal inference for combining experimental and observational data" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria d&#039;Université Côte d&#039;Azur" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-06113" + "</p>"                        
+        + "<p class='h5'>Ref. " + "2023-06112" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-05-05" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
         ;
@@ -5172,28 +5194,6 @@ function mapInit() {
         } else {
             lat = '48.714';
             lon = '2.206';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05750", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Mission IA // Assistant.e de direction (F/H)" + "</b></p>"
-        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05750" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-30" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.837117" == "" ) {
-            if("48.837117" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.837117';
-                lon = '2.103108';
-            }
-        } else {
-            lat = '48.837117';
-            lon = '2.103108';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -7108,116 +7108,6 @@ function mapInit() {
         } else {
             lat = '45.218';
             lon = '5.807';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05752", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H [ALRC 2023] Analyse mathématique et numérique de problèmes dissipatifs à frontières libres" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05752" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-18" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("50.606" == "" ) {
-            if("50.606" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '50.606';
-                lon = '3.149';
-            }
-        } else {
-            lat = '50.606';
-            lon = '3.149';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05753", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H [ALRC 2023] Neurones, éclatement et contrôleur/observateur adaptatif : contraction induite" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05753" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-18" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("50.606" == "" ) {
-            if("50.606" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '50.606';
-                lon = '3.149';
-            }
-        } else {
-            lat = '50.606';
-            lon = '3.149';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05754", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H [ALRC 2023] Synchronisation des systèmes incertains et de types différents via apprentissage par renforcement" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05754" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-18" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("50.606" == "" ) {
-            if("50.606" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '50.606';
-                lon = '3.149';
-            }
-        } else {
-            lat = '50.606';
-            lon = '3.149';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05757", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Doctorant F/H [ALRC 2023] Interaction au delà des limites de la boucle sensori-motrice" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université de Lille" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05757" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-18" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("50.606" == "" ) {
-            if("50.606" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '50.606';
-                lon = '3.149';
-            }
-        } else {
-            lat = '50.606';
-            lon = '3.149';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06115", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Chargé-e des systèmes d’information documentaire et des données de la recherche" + "</b></p>"
-        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-06115" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-18" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.837117" == "" ) {
-            if("48.837117" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.837117';
-                lon = '2.103108';
-            }
-        } else {
-            lat = '48.837117';
-            lon = '2.103108';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

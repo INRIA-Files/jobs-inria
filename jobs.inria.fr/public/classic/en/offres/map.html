@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="WlnsukOC_MBIKzxxy2F5qkNLWT_POJXWvXZxWHvuwLc" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="w8zsNpPFpMWihFKjhfylbeHYl2lO7f1RqOzpj6XTYrw" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offers found 
-                                                 ( 304 )
+                                                 ( 308 )
                        </span> 
                             </div>
         </div>
@@ -1172,11 +1172,55 @@ function mapInit() {
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
         map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06096", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur.e plateformes outils (H/F) - DSI - SA" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06096" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-06-30" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
                detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05931", _locale : "en" });
         offreDetail = "<p class='h4 red-inria'><b>" + "Coordinateur de paie (F/H)" + "</b></p>"
         + "<p class='h5'><b> " + "Siège" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2023-05931" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-06-21" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.837117" == "" ) {
+            if("48.837117" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.837117';
+                lon = '2.103108';
+            }
+        } else {
+            lat = '48.837117';
+            lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06147", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctorant F/H Apprentissage Automatique (IA)" + "</b></p>"
+        + "<p class='h5'><b> " + "Siège" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06147" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-06-19" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
         ;
         if("48.837117" == "" ) {
@@ -1344,6 +1388,28 @@ function mapInit() {
         } else {
             lat = '48.837117';
             lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06145", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Learning host-pathogen surface interactome to design novel therapeutics" + "</b></p>"
+        + "<p class='h5'><b> " + "CRI Nancy - Grand Est" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06145" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-06-04" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("48.665522" == "" ) {
+            if("48.665522" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.665522';
+                lon = '6.157016';
+            }
+        } else {
+            lat = '48.665522';
+            lon = '6.157016';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -3948,6 +4014,28 @@ function mapInit() {
         offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Mechanistic Modeling: application in vaccine development (IDP 2023)" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de l&#039;université de Bordeaux" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2023-06132" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-05-14" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
+        ;
+        if("44.808" == "" ) {
+            if("44.808" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '44.808';
+                lon = '-0.6';
+            }
+        } else {
+            lat = '44.808';
+            lon = '-0.6';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-06150", _locale : "en" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "PhD Position F/M Domain decomposition methods for aeroacoutic models (IDP 2023)" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de l&#039;université de Bordeaux" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-06150" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Deadline of application : <b>" + "2023-05-14" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/en/offres/&quot;+detail_url+&quot;'>" + "See more..." + "</a></p>"
         ;

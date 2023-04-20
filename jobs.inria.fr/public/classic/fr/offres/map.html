@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="NxiOHyDdV2qtZtZMJi9Pgq2fL-oJv_clWEACYDofRz8" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="Vrxmqj3VCUrONPydPw-kOGpQ_fRrIOhY-rV7NdgxoRI" /></form>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
             <div class="pull-left">
                                     <span class="inria-gray1 search-text-result">
                                                  Offres trouvées 
-                                                 ( 308 )
+                                                 ( 306 )
                        </span> 
                             </div>
         </div>
@@ -7262,50 +7262,6 @@ function mapInit() {
         } else {
             lat = '43.616';
             lon = '7.068';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05841", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Apprenti.e en communication et médiation scientifique" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05841" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-19" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.218" == "" ) {
-            if("45.218" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.218';
-                lon = '5.807';
-            }
-        } else {
-            lat = '45.218';
-            lon = '5.807';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05830", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Alternance - Chargé(e) de Ressources Humaines (H/F)" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de l&#039;Université Grenoble Alpes" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05830" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-19" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("45.218" == "" ) {
-            if("45.218" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '45.218';
-                lon = '5.807';
-            }
-        } else {
-            lat = '45.218';
-            lon = '5.807';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());

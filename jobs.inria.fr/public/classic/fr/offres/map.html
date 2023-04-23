@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="LmgK4G4Ol28wnvj8I_3yPE6SkJyLRa4-pFODWMyjblk" /></form>
+            <input type="hidden" id="recherche_offre__token" name="recherche_offre[_token]" value="XvVpKjutQm-Cw8DseDOHrqRZWNBdHTklvEqVdZjv_sQ" /></form>
         </div>
     </div>
 </div>
@@ -1080,6 +1080,28 @@ function mapInit() {
         } else {
             lat = '48.837117';
             lon = '2.103108';
+        }
+        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
+            .openPopup());
+        map.addLayer(markers);
+               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05922", _locale : "fr" });
+        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur pour la migration d&#039;un auto-pilote d&#039;un drone sur multicoeur temps réel" + "</b></p>"
+        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
+        + "<p class='h5'>Ref. " + "2023-05922" + "</p>"                        
+        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-06-30" + "</b></p>"
+        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
+        ;
+        if("48.84161" == "" ) {
+            if("48.84161" == "") {
+                lat = '48.730719';
+                lon = '2.1743768';
+            } else {
+                lat = '48.84161';
+                lon = '2.38446';
+            }
+        } else {
+            lat = '48.84161';
+            lon = '2.38446';
         }
         markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
             .openPopup());
@@ -7292,28 +7314,6 @@ function mapInit() {
         offreDetail = "<p class='h4 red-inria'><b>" + "Post-Doctoral Research Visit F/M Quantum information processing in phase space" + "</b></p>"
         + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
         + "<p class='h5'>Ref. " + "2023-05894" + "</p>"                        
-        + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-23" + "</b></p>"
-        + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
-        ;
-        if("48.84161" == "" ) {
-            if("48.84161" == "") {
-                lat = '48.730719';
-                lon = '2.1743768';
-            } else {
-                lat = '48.84161';
-                lon = '2.38446';
-            }
-        } else {
-            lat = '48.84161';
-            lon = '2.38446';
-        }
-        markers.addLayer(L.marker(L.latLng(lat, lon)).bindPopup(offreDetail)
-            .openPopup());
-        map.addLayer(markers);
-               detail_url = Routing.generate('public_classic_offre_detail', { ref :  "2023-05922", _locale : "fr" });
-        offreDetail = "<p class='h4 red-inria'><b>" + "Ingénieur pour la migration d&#039;un auto-pilote d&#039;un drone sur multicoeur temps réel" + "</b></p>"
-        + "<p class='h5'><b> " + "Centre Inria de Paris" + "</b></p>"   
-        + "<p class='h5'>Ref. " + "2023-05922" + "</p>"                        
         + "<p class='h5'><i class='fa fa-history'></i> "+ "Date limite pour postuler : <b>" + "2023-04-23" + "</b></p>"
         + "<p class='text-right h5'><a class='a-inria' href='https://jobs.inria.fr/public/classic/fr/offres/&quot;+detail_url+&quot;'>" + "Voir plus..." + "</a></p>"
         ;
